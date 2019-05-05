@@ -18,7 +18,6 @@ header {
     flex-wrap: nowrap;
     justify-content: space-between;
     box-sizing: border-box;
-    position: fixed;
     top: 0;
     left: 0;
     z-index: 1;
@@ -42,9 +41,13 @@ section {
 
 .main-img {
     width: 100%;
-    height: 100vh;
+    height: 100%;
     background: url(../images/main.jpeg) no-repeat center / cover;
     text-align: center;
+}
+
+#btn-menu {
+    margin-bottom: 20%;
 }
 
 .main-img h2 {
