@@ -16,6 +16,8 @@ matrix:
           ignores:
             - code
             - pre
+    sources:
+      - 'index.html'
     default_encoding: utf-8
   - name: EN_Markdown
     group: en_spelling
@@ -34,4 +36,6 @@ matrix:
           ignores:
             - code
             - pre
+    sources:
+      - 'index.html'
     default_encoding: utf-8
